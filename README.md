@@ -14,8 +14,11 @@ storm-rabbitmq-test -> This toplogy consumes tuples from storm-amqp-spout. To ge
 storm-rabbitmq-json-test -> This toplogy also consumes tuples from strom-amqp-spout, however, the client generates petitions using JSON
   
   dependecies:
+  
   https://github.com/davidpr/storm-amqp-spout
+  
   https://github.com/davidpr/storm-rabbitmq/tree/master/storm-client-json
+  
   https://github.com/davidpr/storm-json
   
   
