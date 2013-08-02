@@ -38,7 +38,7 @@ Here the spout creates a response queue in which it delivers responses via RPC.
 **storm-rabbitmq-kyo-rpc-json-test:** This topology consumes tuples from storm-amqp-spout-kryo-rpc-json.
 The point is that this spout is esentially the same as the storm-amqp-spout becuase is this topology it is the bolt
 the responsible for answering via RPC insted of the bolt. However, this spout needs to pass down to the bolt 
-some extra information, so responses are matched with requests.
+some extra information, so responses are matched with requests. This topology uses Kryo serialization.
 
   *dependencies:*
   * https://github.com/davidpr/storm-rabbitmq/tree/master/storm-amqp-spout-kryo-rpc-json
@@ -51,26 +51,29 @@ some extra information, so responses are matched with requests.
 
 ---
 
-**storm-amqp-spout-rpc:**
+**storm-amqp-spout-rpc:** This spout answers petitions form clients via RPC
 
 ---
 
-**storm-amqp-spout-kryo-rpc-json:**
+**storm-amqp-spout-kryo-rpc-json:** This spout doens't answer petitions from client via RPC but it passes down RPC 
+related information to bolt so the latest one can answer via RPC.
 
+---
 
 ### List of Clients
 
 ---
 
-**storm-rabbitmq-client-test:**
+**storm-rabbitmq-client-test:** This client sends a request to and AMQP spout. 
 
 ---
 
-**storm-client-json:**
+**storm-client-json:** This client sends a request to a AMQP spout using JSON class.
 
 ---
 
-**storm-client-rpc-json:**
+**storm-client-rpc-json:** This client sends a request to a AMQP spout using request and waits until some AMQP 
+answer queue has the RPC response.
 
 
 
