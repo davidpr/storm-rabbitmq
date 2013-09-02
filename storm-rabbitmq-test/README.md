@@ -9,7 +9,7 @@ This toplogy consumes tuples from storm-amqp-spout. To generate petitions a java
 
 ### Usage
 
-1. [Compile and install]() project dependencies form each project dependency root directory
+1. [Compile and install](https://github.com/davidpr/storm-amqp-spout) project dependencies form each project dependency root directory
 
 2. Compile the project from the project root directory
 
