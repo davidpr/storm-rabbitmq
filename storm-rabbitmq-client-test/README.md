@@ -1,7 +1,7 @@
 storm-rabbitmq-client-test
 ===================
 
-storm-rabbitmq-client-test: This client sends a request to and AMQP spout.
+This client sends a request to and AMQP spout.
 
 ### Usage
 
