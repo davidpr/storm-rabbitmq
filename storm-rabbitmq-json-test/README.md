@@ -26,7 +26,7 @@ storm-rabbitmq-json-test
 4. Run the topology with Storm 
 
     `./storm jar /home/user/storm-rabbitmq/storm-rabbitmq-json-test/target/storm-rabbitmq-json-test-1.0-SNAPSHOT.jar`
-    `com.davidpr.rabbitmq.Rabbitmqopology topologyname`
+    `com.davidpr.rabbitmq.RabbitmqJSONTopology topologyname`
     
 5. [Compile and use](https://github.com/davidpr/storm-rabbitmq/tree/master/storm-client-json) the client
 
