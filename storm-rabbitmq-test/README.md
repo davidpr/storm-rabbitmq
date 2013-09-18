@@ -22,7 +22,7 @@ This toplogy consumes tuples from storm-amqp-spout. To generate petitions a java
     `./storm jar /home/user/storm-rabbitmq/storm-rabbitmq-test/target/storm-rabbitmq-test-1.0-SNAPSHOT.jar`
     `com.davidpr.rabbitmq.Rabbitmqopology topologyname`
     
-5. [Compile and use]() the client
+5. [Compile and use](https://github.com/davidpr/storm-rabbitmq/tree/master/storm-rabbitmq-client-test) the client
 
 
 
