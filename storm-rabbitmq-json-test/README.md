@@ -14,6 +14,7 @@ storm-rabbitmq-json-test
 1. Compile and install project dependencies form each project dependency root directory
 
     a) [Storm-amqp-spout](https://github.com/davidpr/storm-amqp-spout)
+    
     b) [Storm-json](https://github.com/davidpr/storm-json)
 
 2. Compile the project from the project root directory
@@ -27,7 +28,7 @@ storm-rabbitmq-json-test
     `./storm jar /home/user/storm-rabbitmq/storm-rabbitmq-json-test/target/storm-rabbitmq-json-test-1.0-SNAPSHOT.jar`
     `com.davidpr.rabbitmq.Rabbitmqopology topologyname`
     
-5. [Compile and use]() the client
+5. [Compile and use](https://github.com/davidpr/storm-rabbitmq/tree/master/storm-client-json) the client
 
 
 
