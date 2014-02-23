@@ -1,15 +1,15 @@
-storm-rabbitmq-client-test
-===================
+storm-client-json
+=================
 
-storm-rabbitmq-client-test: This client sends a request to and AMQP spout.
+This client sends a request to a AMQP spout using JSON class.
 
 ### Usage
 
 1. Compile the client.
 
-    `javac -cp /home/user/Downloads/rabbitmq-java-client-bin-3.1.1/rabbitmq-client.jar StormSender.java`
+    ``
 
-2. Have a [receiver listening] (https://github.com/davidpr/storm-rabbitmq/tree/master/storm-rabbitmq-test) to this client petitions.
+2. Have a [receiver listening] (https://github.com/davidpr/storm-rabbitmq/tree/master/storm-rabbitmq-json-testt) to this client petitions.
 
 3. Run the client.
 
